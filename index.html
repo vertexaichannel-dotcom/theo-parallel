@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theo Parallel</title>
+<meta name="description" content="Theo Parallel: animated &quot;What if...?&quot; stories. What if it were you?">
+<link rel="icon" href="logo.png">
+<style>
+  :root { --navy:#141E38; --navy2:#1D2A4D; --gold:#FFC454; --teal:#4DB6A6; --orange:#F08A3C; --text:#EEF1F7; --muted:#AEB7CC; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--navy); color:var(--text); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color:var(--gold); }
+  .hero { aspect-ratio:2560/700; min-height:180px; background:url(banner.jpg) center/cover no-repeat; }
+  @media (max-width:700px) { .hero { aspect-ratio:16/9; min-height:0; } }
+  .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+  .intro { display:flex; gap:20px; align-items:flex-start; margin-top:28px; }
+  .intro img { width:88px; height:88px; border-radius:50%; border:3px solid var(--gold); flex:none; }
+  .intro p { margin:0; }
+  main { max-width:860px; margin:0 auto; padding:8px 16px 48px; }
+  h2 { margin:36px 0 8px; font-size:22px; color:var(--teal); }
+  .card { background:var(--navy2); border-radius:12px; padding:20px; margin-top:12px; }
+  .btn { display:inline-block; margin-top:16px; padding:12px 22px; border-radius:999px; background:var(--orange); color:#1a1a1a; font-weight:700; text-decoration:none; }
+  footer { max-width:860px; margin:0 auto; padding:24px 16px 40px; color:var(--muted); font-size:14px; border-top:1px solid #2B3A63; }
+</style>
+</head>
+<body>
+<header class="hero" role="img" aria-label="Theo Parallel: What if it were you?">
+  <h1 class="sr">Theo Parallel</h1>
+</header>
+
+<main>
+  <div class="intro">
+    <img src="logo.png" alt="Theo, the channel's mascot">
+    <p>Theo Parallel is a YouTube channel of animated <strong>"What if...?"</strong> stories. Each episode drops Theo into an alternate version of everyday life and follows where it leads, told in 2D geometric animation with cinematic light. New episodes come out in English, Portuguese, Spanish, German and Indonesian.</p>
+  </div>
+  <a class="btn" href="https://www.youtube.com/@TheoParallel">Watch on YouTube</a>
+
+  <h2>Theo Parallel Uploader</h2>
+  <div class="card">
+    <p style="margin-top:0">Theo Parallel Uploader is a private tool used only by the channel owner. It uses the YouTube Data API to upload the channel's own videos and set their titles, descriptions, thumbnails, captions and audio tracks in each language.</p>
+    <p style="margin-bottom:0">It does not access anyone else's account, and it is not offered to the public. Read the <a href="privacy.html">Privacy Policy</a> for details on how it handles data.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:vertex.ai.channel@gmail.com">vertex.ai.channel@gmail.com</a></p>
+</main>
+
+<footer>
+  © 2026 Theo Parallel · <a href="privacy.html">Privacy Policy</a> · <a href="https://www.youtube.com/@TheoParallel">YouTube</a>
+</footer>
+</body>
+</html>
